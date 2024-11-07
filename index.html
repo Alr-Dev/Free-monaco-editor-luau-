@@ -245,9 +245,8 @@
     { label: 'Draw.new("Text")', kind: monaco.languages.CompletionItemKind.Function, documentation: 'Creates a new text drawing object.', insertText: 'Draw.new("Text")', insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet },
     { label: 'saveinstance', kind: monaco.languages.CompletionItemKind.Function, documentation: 'Saves an instance to a file or data storage for later use or cloning.', insertText: 'saveinstance(${1:instance})', insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet },
     { label: 'Draw.new("Polygon")', kind: monaco.languages.CompletionItemKind.Function, documentation: 'Creates a new polygon drawing object.', insertText: 'Draw.new("Polygon")', insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet },
-    { label: '__index', kind: monaco.languages.CompletionItemKind.Function, documentation: 'The metamethod for indexing a table. Called when accessing a table with a key.', insertText: '__index(${1:table}, ${2:key})', insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet }
-
-
+    { label: '__index', kind: monaco.languages.CompletionItemKind.Function, documentation: 'The metamethod for indexing a table. Called when accessing a table with a key.', insertText: '__index(${1:table}, ${2:key})', insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet },
+    { label: 'writefile', kind: monaco.languages.CompletionItemKind.Function, documentation: 'Writes data to a file on the local file system. The file is created if it does not exist.', insertText: 'writefile("${1:name}", "${2:context}")', insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet }
 ];
 
                 return { suggestions: suggestions };
