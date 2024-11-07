@@ -68,7 +68,7 @@
         monaco.languages.setMonarchTokensProvider('luau', {
             tokenizer: {
                 root: [
-                    [/\b(function|local|end|if|then|else|elseif|for|while|do|repeat|until|return|break|true|false|nil)\b/, 'keyword'],
+                    [/\b(function|local|end|if|then|else|elseif|for|while|do|repeat|until|return|break|true|_G|script|hookfunction|workspace|hookmetamethod|__index|math|game|GetService|false|nil)\b/, 'keyword'],
                     [/[a-zA-Z_][\w]*/, 'identifier'],
                     [/\d+(\.\d+)?/, 'number'],
                     [/".*?"/, 'string'],
