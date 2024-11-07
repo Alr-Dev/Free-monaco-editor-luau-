@@ -247,8 +247,8 @@
     { label: 'Draw.new("Polygon")', kind: monaco.languages.CompletionItemKind.Function, documentation: 'Creates a new polygon drawing object.', insertText: 'Draw.new("Polygon")', insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet },
     { label: '__index', kind: monaco.languages.CompletionItemKind.Function, documentation: 'The metamethod for indexing a table. Called when accessing a table with a key.', insertText: '__index(${1:table}, ${2:key})', insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet },
     { label: 'writefile', kind: monaco.languages.CompletionItemKind.Function, documentation: 'Writes data to a file on the local file system. The file is created if it does not exist.', insertText: 'writefile("${1:name}", "${2:context}")', insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet },
-    { label: '_G', kind: monaco.languages.CompletionItemKind.Variable, documentation: 'A global table that holds all global variables and functions in Lua. It is the environment table used for global scope.', insertText: '_G', insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet }
-
+    { label: '_G', kind: monaco.languages.CompletionItemKind.Variable, documentation: 'A global table that holds all global variables and functions in Lua. It is the environment table used for global scope.', insertText: '_G', insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet },
+    { label: 'base64encode', kind: monaco.languages.CompletionItemKind.Function, documentation: 'Encodes a given string or binary data to a Base64-encoded string.', insertText: 'base64encode("${1:data}")', insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet }
 ];
 
                 return { suggestions: suggestions };
